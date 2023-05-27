@@ -1,3 +1,3 @@
-this was something I made for fun
+Code web for the first time (1st year)
 <br>
 In process....
