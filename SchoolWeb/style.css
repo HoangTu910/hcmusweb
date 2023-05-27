@@ -5,6 +5,7 @@
 body {
 	font-family: Times new roman;
 	margin: 0;
+
 }
 .left{
 	text-align: left;
@@ -85,7 +86,7 @@ li,a{
 /*Search bar*/
 .search{
 	width: 200px;
-	height: 35px;
+	height: 23px;
 	background-color: white;
 	border-color: steelblue;
 	border-radius: 10px;
@@ -166,7 +167,7 @@ img.hover-img{
 	justify-content: space-around;
 	margin-top: 30px;
 	padding: 10px 20px;
-	background-color: floralwhite;
+	background-color: white;
 	text-align: center;
 }
 
@@ -177,11 +178,11 @@ img.hover-img{
 }
 
 .font-lecture{
-	font-size: 22px;
+	font-size: 18px;
 	font-family: time new romans;
 }
 .font-lecture-num{
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: 700;
 }
 
@@ -189,11 +190,14 @@ img.hover-img{
 /*DAO TAO*/
 .major-cont {
 	justify-content: space-around;
-	margin-top: 30px;
+	margin-top: 3px;
 	padding: 10px 20px;
 	text-align: center;
 }
-
+.setup-major{
+	display: flex;
+	justify-content: space-around;
+}
 .normal-font-major{
 	font-family: Open Sans,sans-serif;
 	line-height: 1.42857143;
@@ -208,8 +212,8 @@ img.hover-img{
 
 .box-major{
 	display: inline-block;
-	width: 25%;
-	height: 350px;
+	max-width: 25%;
+	min-height: 350px;
 	padding-right: 10px;
 	padding-left: 10px;
 	text-align: center;
@@ -218,7 +222,9 @@ img.hover-img{
 	border-radius: 10px;
 	cursor: pointer;
 	transition: all 0.4s ease 0s;
+	margin-bottom: 120px;
 }
+
 
 .box-major:hover{
 	background-color: lightskyblue;
@@ -241,13 +247,13 @@ img.hover-img{
 /*NEWS*/
 .news-cont {
 	justify-content: space-around;
-	margin-top: 160px;
 	padding: 10px 20px;
 	background-image: url("https://www.hcmus.edu.vn/images/2020/04/07/bn2.jpg"),url("https://wallpapercave.com/wp/wp8596977.jpg");
 	background-size: cover;
 	text-align: center;
 	background-blend-mode: soft-light;
 }
+
 .news-contain{
 	display: flex;
 	width: 100%;
@@ -261,11 +267,195 @@ img.hover-img{
 .news-box{
 	width: 20%;
 	height: 260px;
-	background-color: white;
+	background-color: lightskyblue;
 }
 .font-news{
 	font-family: Open Sans,sans-serif;
 	font-size: 29px;
 	font-weight: 700;
 	color: white;
+}
+
+
+
+/*Contact*/
+.contact-cont{
+	margin-top: 85px;
+	background-color: white;
+	justify-content: space-around;
+	min-height: 400px;
+	text-align: center;
+	align-items: center;
+	padding-bottom: 10px;
+}
+.contact-text-box{
+	background-color: white;
+	padding-right: 150px;
+	padding-left: 150px;
+}
+.contact-box{
+	background-color: white;
+	width: 100%;
+	min-height: 400px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.in-contact-box{
+	background-color: floralwhite;
+	width: 30%;
+	min-height: 400px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+/*Why*/
+.why-cont{
+	margin-top: 140px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: white;
+	width: 100%;
+	height: 50px;
+}
+
+.why-box{
+	width: 50%;
+	height: 50px;
+	border-radius: 10px;
+	background-color: lightskyblue;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.why-font{
+	font-size: 22px;
+	color: white;
+	font-weight: bold;
+}
+
+/*trietlygiaoduc*/
+.sight-cont{
+	margin-top: 50px;
+	margin-bottom: 35px;
+	min-height: 300px;
+	justify-content: space-around;
+	background-color: white;
+	text-align: center;
+	align-items: center;
+}
+
+.sight-box-cont{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	min-height: 200px;
+	text-align: center;
+	background-color: white;
+	margin-bottom: 40px;
+}
+.sight-box{
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 20%;
+	min-height: 220px;
+	text-align: center;
+	align-items: center;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: skyblue;
+}
+.font-sight{
+	font-size: 18px;
+	font-weight: bold;
+}
+.font-sight-2{
+	line-height: 1.4;
+}
+
+/*environment*/
+.env-cont{
+	min-height: 200px;
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding-left: 190px;
+	padding-right: 190px;
+	align-items: center;
+	justify-content: center;
+}
+.env-font{
+	color: gray;
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+/*footer*/
+.footer-container{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	background-color: steelblue;
+	height: 100px;
+}
+
+.foot-box-cont{
+
+	width: 60%;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.foot-font{
+	color: white;
+	font-size: 15px;
+}
+
+@media (max-width: 1150px) {
+	.header{
+		display: inline-flex;
+		flex-direction: column;
+		text-align: center;
+		width: 100%;
+	}
+	.navbar{
+		width: 100%;
+		display: inline-flex;
+		flex-direction: column;
+	}
+	.search{
+		display: none;
+	}
+	.introduction-cont{
+		display: inline-flex;
+		flex-direction: column;
+		width: 100%;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+	}
+	.major-cont{
+		width: 100%;
+		background-color: aqua;
+	}
+	.setup-major{
+		background-color: yellow;
+		width: 100%;
+		display: inline-flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.box-major{
+		background-color: red;
+		width: 600px;
+	}
 }
